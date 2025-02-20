@@ -12,7 +12,7 @@
 </head>
 <body class="p-0 m-0 w-screen h-auto box-border relative">
       <!-- Div Buka Undangan -->
-   <div id="buka-undangan" class=" target:animate-slide-up target:opacity-0 target:transition-all target:duration-3000 target:w-0 target:h-0">
+   <div id="buka-undangan" class="  target:opacity-0 target:transition-all target:duration-3000 target:w-0 target:h-0">
         <div id="buka-undangan" class=" w-screen h-screen bg-cover bg-center bg-[url(/src/bg.jpg)]  top-0 left-0  ">
             <div class="flex justify-center items-center h-screen w-screen  ">
                 <div class="flex items-center flex-col">
@@ -215,17 +215,7 @@
     });
 
     
-    document.addEventListener("DOMContentLoaded", function() {
-        const bukaUndanganButton = document.querySelector('a[href="#buka-undangan"]');
-        const bukaUndanganDiv = document.getElementById("buka-undangan");
-        const audio = document.getElementById("bg-music");
-
-        bukaUndanganButton.addEventListener("click", function(event) {
-            event.preventDefault(); // Mencegah scroll otomatis ke bagian undangan
-            bukaUndanganDiv.style.display = "none"; // Sembunyikan tampilan awal
-            audio.play(); // Mulai memainkan lagu
-        });
-    });
+    
 </script>
 </div>
 
